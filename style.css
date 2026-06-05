@@ -1,4 +1,7 @@
+/* Al-ameen Umar Muhammad
+CIS/STE/22/1154 */
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -41,11 +44,14 @@ input {
 }
 
 button {
-    padding: 12px 20px;
-    background: #667eea;
+    /* Al-ameen Umar Muhammad
+    CIS/STE/22/1154 */
+
+    padding: 9px 18px;
+    background: red;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
