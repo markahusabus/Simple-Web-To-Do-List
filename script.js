@@ -17,7 +17,10 @@ function addTask() {
     input.value = '';
     renderTasks();
 }
-
+//Aliyu Ahmadu Babadoko
+function toggleDarkMde(){
+    document.body.classList.toggle('dark-mode');
+}
 function toggleComplete(id) {
     tasks = tasks.map(task => {
         if (task.id === id) task.completed = !task.completed;

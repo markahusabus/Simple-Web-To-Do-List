@@ -19,7 +19,7 @@ A simple collaborative To-Do List web application built by 18 group members.
 | Name | Matric Number | Contribution |
 |------|---------------|--------------|
 | Muhammad Ibrahim | CIS/STE/22/1143 | Project setup + core features |
-| Member 2 | Matric | Added comments + tested |
+| Aliyu Ahmadu Babadoko |CIS/STE/22/1141| Added darkMode Function |
 | ... | ... | ... |
 
 **All 18 members must add their name here after their PR is merged.**
