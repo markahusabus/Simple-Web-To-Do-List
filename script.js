@@ -17,7 +17,11 @@ function addTask() {
     input.value = '';
     renderTasks();
 }
-
+//Aminu Abubakar Yahaya  
+function sortTasks() {
+    tasks.sort((a, b) => a.text.localeCompare(b.text));
+    renderTasks();
+}
 function toggleComplete(id) {
     tasks = tasks.map(task => {
         if (task.id === id) task.completed = !task.completed;
