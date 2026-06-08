@@ -28,7 +28,11 @@ function toggleComplete(id) {
     });
     renderTasks();
 }
-
+//Hafsat Muhammad Khamis
+function markAllCompleted() {
+    tasks = tasks.map(task => ({...task, completed: true}));
+    renderTasks();
+}
 function deleteTask(id) {
     tasks = tasks.filter(task => task.id !== id);
     renderTasks();
